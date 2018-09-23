@@ -1,0 +1,30 @@
+{
+  "name": "max-expressions",
+  "version": "1.0.0",
+  "description": "Super friendly, human readable expressions",
+  "main": "max-expressions.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mushishi78/max-expressions.git"
+  },
+  "keywords": [
+    "human readable",
+    "friendly",
+    "expression"
+  ],
+  "author": "Max White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mushishi78/max-expressions/issues"
+  },
+  "homepage": "https://github.com/mushishi78/max-expressions#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "ava": {
+    "files": [
+      "**/*.test.js",
+      "!node_modules"
+    ]
+  }
+}
